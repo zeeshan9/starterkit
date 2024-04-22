@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import type {PropsWithChildren} from 'react';
+import type { PropsWithChildren } from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -33,13 +33,18 @@ function App(): React.JSX.Element {
   };
 
   return (
-    <View >
+    <View>
       <Text>helllow world afnadlsfn llk</Text>
       <Text>helllow world afnadlsfn llk</Text>
       <Text>helllow world afnadlsfn llk</Text>
       <Text>helllow world afnadlsfn llk</Text>
       <Text>helllow world afnadlsfn llk</Text>
       <Text>helllow world afnadlsfn llk</Text>
+      <Text>RUn on IOS</Text>
+      <Text>RUn on IOS</Text>
+      <Text>RUn on IOS</Text>
+
+      <Text>RUn on IOS</Text>
     </View>
   );
 }

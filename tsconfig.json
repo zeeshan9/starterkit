@@ -1,3 +1,21 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "noUnusedParameters": false,
+    "target": "es5",
+    // "module": "commonjs",
+    // "strict": false,
+    // "jsx": "react",
+    // "noUnusedLocals": false,
+    // // "allowJs": true,
+    // "skipLibCheck": true,
+    // "esModuleInterop": true,
+    // "allowSyntheticDefaultImports": true,
+    // "strictNullChecks": false,
+    // "moduleResolution": "node",
+    // "forceConsistentCasingInFileNames": true,
+    // "noEmit": true,
+    // "isolatedModules": true,
+    // "noImplicitAny": true
+  }
 }
