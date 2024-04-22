@@ -5,6 +5,11 @@ module.exports = {
     'plugin:prettier/recommended', // Ensures Prettier and ESLint are integrated
     'plugin:@typescript-eslint/recommended',
   ],
+  plugins: [
+    'react',
+    '@typescript-eslint',
+    'Prettier ESLint', // Runs Prettier as an ESLint rule
+  ],
   rules: {
     '@typescript-eslint/no-unused-vars': 'off',
     'comma-dangle': 'off',

@@ -38,7 +38,7 @@ function App(): React.JSX.Element {
       <Text>helllow world afnadlsfn llk</Text>
       <Text>helllow world afnadlsfn llk</Text>
       <Text>helllow world afnadlsfn llk</Text>
-      <Text>helllow world afnadlsfn llk</Text>
+      <Text>helllow world afnadlsfn llk </Text>
       <Text>helllow world afnadlsfn llk</Text>
       <Text>RUn on IOS</Text>
       <Text>RUn on IOS</Text>
