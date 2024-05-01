@@ -24,6 +24,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import FlatCards from './src/components/FlatCards';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -34,10 +35,12 @@ function App(): React.JSX.Element {
 
   return (
     <SafeAreaView>
-      <View>
-        <Text>helllow world afnadlsfn llk</Text>
-        <Text>RUn on IOS</Text>
-      </View>
+      <ScrollView>
+        <View>
+          <Text>Run on IOS</Text>
+          <FlatCards></FlatCards>
+        </View>
+      </ScrollView>
     </SafeAreaView>
   );
 }
