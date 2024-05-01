@@ -59,6 +59,36 @@ Now that you have successfully run the app, let's modify it.
 
 You've successfully run and modified your React Native App. :partying_face:
 
+## React Native Folder Structure
+MyApp/
+├── android/                # Android native specific files
+├── ios/                    # iOS native specific files
+├── src/                    # Source files for the app
+│   ├── assets/             # Static resources (images, fonts, etc.)
+│   ├── components/         # Reusable components
+│   │   ├── common/         # Highly reusable across the app
+│   │   └── layout/         # Layout components
+│   ├── navigation/         # Navigation related files
+│   ├── screens/            # Screen components
+│   │   ├── HomeScreen/
+│   │   │   ├── HomeScreen.js       # Home screen component
+│   │   │   └── styles.js           # Styles specific to the Home screen
+│   │   ├── ProfileScreen/
+│   │   │   ├── ProfileScreen.js    # Profile screen component
+│   │   │   └── styles.js           # Styles specific to the Profile screen
+│   ├── services/           # Services for handling backend API calls
+│   ├── hooks/              # Custom hooks
+│   ├── utils/              # Utility functions
+│   ├── store/              # State management (e.g., Redux, MobX)
+│   │   ├── actions/        # Action creators
+│   │   ├── reducers/       # Reducers
+│   │   └── store.js        # Store configuration
+│   └── config/             # Configuration files
+├── app.json                # Configuration for the app
+├── index.js                # Entry point for the app
+└── package.json            # Project dependencies and scripts
+
+
 ### Now what?
 
 - If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).

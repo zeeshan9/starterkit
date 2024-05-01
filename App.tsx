@@ -33,19 +33,12 @@ function App(): React.JSX.Element {
   };
 
   return (
-    <View>
-      <Text>helllow world afnadlsfn llk</Text>
-      <Text>helllow world afnadlsfn llk</Text>
-      <Text>helllow world afnadlsfn llk</Text>
-      <Text>helllow world afnadlsfn llk</Text>
-      <Text>helllow world afnadlsfn llk </Text>
-      <Text>helllow world afnadlsfn llk</Text>
-      <Text>RUn on IOS</Text>
-      <Text>RUn on IOS</Text>
-      <Text>RUn on IOS</Text>
-
-      <Text>RUn on IOS</Text>
-    </View>
+    <SafeAreaView>
+      <View>
+        <Text>helllow world afnadlsfn llk</Text>
+        <Text>RUn on IOS</Text>
+      </View>
+    </SafeAreaView>
   );
 }
 
