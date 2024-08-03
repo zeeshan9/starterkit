@@ -24,7 +24,14 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import FlatCards from './src/components/FlatCards';
+import FlatCards from './src/styler02/FlatCards';
+import AnimalSoundsGame from './src/components/AnimalSoundGame';
+import Styler02 from './src/styler02/Styler02';
+import PasswordGenerator03 from './src/passwordgenerator03';
+import BgChange from './src/bgChange.tsx';
+import RollTheDice from './src/rollthedice/RollTheDice.tsx';
+import CurrencyConverter from './src/currencyconverter05/index.tsx';
+import SpotifyMusic from './src/spotifymusic/components/SpotifyMusic.tsx';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -34,18 +41,29 @@ function App(): React.JSX.Element {
   };
 
   return (
-    <SafeAreaView>
-      <ScrollView>
-        <View>
-          <Text>Run on IOS</Text>
-          <FlatCards></FlatCards>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <>
+      {/* <CurrencyConverter /> */}
+      <SafeAreaView>
+        <ScrollView>
+          <View>
+             <SpotifyMusic />
+            {/* <RollTheDice />
+            <BgChange /> 
+            <PasswordGenerator03 />
+            <Styler02 />
+            <AnimalSoundsGame></AnimalSoundsGame> */}
+          </View>
+        </ScrollView>
+      </SafeAreaView>
+    </>
   );
 }
 
 const styles = StyleSheet.create({
+  container: {
+    display: 'flex',
+    flex: 1,
+  },
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,

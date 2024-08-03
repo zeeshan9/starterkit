@@ -11,6 +11,7 @@ import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
 import com.facebook.react.defaults.DefaultReactNativeHost
 import com.facebook.react.flipper.ReactNativeFlipper
 import com.facebook.soloader.SoLoader
+import com.guichaguri.trackplayer.TrackPlayer; // Add this import
 
 class MainApplication : Application(), ReactApplication {
 
@@ -41,5 +42,6 @@ class MainApplication : Application(), ReactApplication {
       load()
     }
     ReactNativeFlipper.initializeFlipper(this, reactNativeHost.reactInstanceManager)
+    TrackPlayer.initialize(this); // Initialize TrackPlayer
   }
 }
