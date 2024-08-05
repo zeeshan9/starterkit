@@ -32,6 +32,7 @@ import BgChange from './src/bgChange.tsx';
 import RollTheDice from './src/rollthedice/RollTheDice.tsx';
 import CurrencyConverter from './src/currencyconverter05/index.tsx';
 import SpotifyMusic from './src/spotifymusic/components/SpotifyMusic.tsx';
+import Main from './src/navigation/Main/index.tsx';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -42,19 +43,20 @@ function App(): React.JSX.Element {
 
   return (
     <>
-      {/* <CurrencyConverter /> */}
       <SafeAreaView>
         <ScrollView>
           <View>
-             <SpotifyMusic />
-            {/* <RollTheDice />
+            <SpotifyMusic />
+            <RollTheDice />
             <BgChange /> 
             <PasswordGenerator03 />
             <Styler02 />
-            <AnimalSoundsGame></AnimalSoundsGame> */}
+            <AnimalSoundsGame></AnimalSoundsGame>
           </View>
         </ScrollView>
       </SafeAreaView>
+      <Main />
+      <CurrencyConverter />
     </>
   );
 }
