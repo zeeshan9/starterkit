@@ -1,4 +1,4 @@
-import { Currency } from './index.d';
+import { Currency } from '.';
 export const currencyByRupee: Currency[] = [
     {
       name: 'DOLLAR',

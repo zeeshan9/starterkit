@@ -24,15 +24,16 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import FlatCards from './src/styler02/FlatCards';
-import AnimalSoundsGame from './src/components/AnimalSoundGame';
-import Styler02 from './src/styler02/Styler02';
-import PasswordGenerator03 from './src/passwordgenerator03';
-import BgChange from './src/bgChange.tsx';
-import RollTheDice from './src/rollthedice/RollTheDice.tsx';
-import CurrencyConverter from './src/currencyconverter05/index.tsx';
-import SpotifyMusic from './src/spotifymusic/components/SpotifyMusic.tsx';
-import Main from './src/navigation/Main/index.tsx';
+import FlatCards from './src/hitesh-course-apps/styler02/FlatCards.tsx';
+import AnimalSoundsGame from './src/hitesh-course-apps/components/AnimalSoundGame.tsx';
+import Styler02 from './src/hitesh-course-apps/styler02/Styler02.tsx';
+import PasswordGenerator03 from './src/hitesh-course-apps/passwordgenerator03/index.tsx';
+import BgChange from './src/hitesh-course-apps/bgChange.tsx/index.tsx';
+import RollTheDice from './src/hitesh-course-apps/rollthedice/RollTheDice.tsx';
+import CurrencyConverter from './src/hitesh-course-apps/currencyconverter05/index.tsx';
+import SpotifyMusic from './src/hitesh-course-apps/spotifymusic/components/SpotifyMusic.tsx';
+import Main from './src/hitesh-course-apps/navigation/Main/index.tsx';
+import AppNavigator from './src/navigation/AppNavigator.tsx';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -43,7 +44,8 @@ function App(): React.JSX.Element {
 
   return (
     <>
-      <SafeAreaView>
+    <AppNavigator />
+      {/* <SafeAreaView>
         <ScrollView>
           <View>
             <SpotifyMusic />
@@ -54,9 +56,9 @@ function App(): React.JSX.Element {
             <AnimalSoundsGame></AnimalSoundsGame>
           </View>
         </ScrollView>
-      </SafeAreaView>
-      <Main />
-      <CurrencyConverter />
+      </SafeAreaView> */}
+      {/* <Main /> */}
+      {/* <CurrencyConverter /> */}
     </>
   );
 }

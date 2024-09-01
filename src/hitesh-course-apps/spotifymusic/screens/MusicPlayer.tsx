@@ -6,7 +6,7 @@ import TrackPlayer, {
     Track,
     useTrackPlayerEvents
 } from 'react-native-track-player'
-import { playListData } from '../../constants';
+import { playListData } from '../../../constants/constants';
 import SongInfo from '../components/SongInfo';
 import SongSlider from '../components/SongSlider';
 import ControlCenter from '../components/ControlCenter';

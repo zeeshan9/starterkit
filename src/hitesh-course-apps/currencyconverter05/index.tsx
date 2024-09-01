@@ -19,7 +19,7 @@ import { currencyByRupee } from './constants';
 
 import Snackbar from 'react-native-snackbar';
 import CurrencyButton from './componenets/CurrencyButton';
-import { Currency } from './index.d';
+import { Currency } from '.';
 
 
 
