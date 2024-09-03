@@ -1,12 +1,29 @@
-import {View, Text, FlatList, Dimensions, TouchableOpacity} from 'react-native';
-import React, {useState} from 'react';
+import React, {useRef, useState} from 'react';
+import {View, Text, FlatList, Dimensions, TouchableOpacity, Platform} from 'react-native';
+// import { BannerAd, BannerAdSize, TestIds, useForeground } from 'react-native-google-mobile-ads';
+
+// const adUnitId = __DEV__ ? TestIds.ADAPTIVE_BANNER : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyyyy';
+
 const {height, width} = Dimensions.get('window');
 
 export default function BottomScreen1() {
   const [data, SetData] = useState([1, 1, 1, 1, 1]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  // "react-native-google-mobile-ads": "^14.2.3", 
+  // "react-native-google-mobile-ads": {
+  //   "android_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
+  //   "ios_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx"
+  // }
+  // Ads code
+  // const bannerRef = useRef<BannerAd>(null);
+  // useForeground(() => {
+    // Platform.OS === 'ios' && bannerRef.current?.load();
+  // })
+
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+          {/* <BannerAd ref={bannerRef} unitId={adUnitId} size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER} /> */}
+
       <Text>Hello world</Text>
       <View
         style={{

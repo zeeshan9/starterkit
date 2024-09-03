@@ -6,11 +6,11 @@ buildscript {
         targetSdkVersion = 34
         ndkVersion = "25.1.8937393"
         kotlinVersion = "1.8.0"
-        unimodulesVersion = '0.14.10'
+        unimodulesVersion = "0.14.10"
     }
     repositories {
         google()
-        jcenter() // Ensure this is present
+        // jcenter() // Ensure this is present
         mavenCentral()
     }
     dependencies {
