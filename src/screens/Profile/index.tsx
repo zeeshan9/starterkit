@@ -4,6 +4,7 @@ import { Text, View } from 'react-native'
 const Profile = () => {
   return (
     <View>
+      {/* Profile Screen View */}
       <Text>Profile Screen</Text>
     </View>
   )
