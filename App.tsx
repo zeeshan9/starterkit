@@ -44,6 +44,7 @@ function App(): React.JSX.Element {
 
   return (
     <>
+    {/* two different root scen componenets for ui */}
     <AppNavigator />
       {/* <SafeAreaView>
         <ScrollView>
