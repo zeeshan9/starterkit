@@ -6,7 +6,7 @@ import BottomNavigator from '../../navigation/BottomNavigator';
 const Home = () => {
   return (
     <View style={{flex:1}}>
-      {/* two different root scene components for UI feature */}
+      {/* Two different root scene components for UI feature */}
       <BottomNavigator />
       {/* <DrawerNavigator /> */}
     </View> 
