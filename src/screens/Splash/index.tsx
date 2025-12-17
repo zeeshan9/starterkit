@@ -9,6 +9,7 @@ const Splash = ({navigation}: any) => {
     })
   return (
     <View>
+      {/* splash Screen */}
       <Text>Splash Screen</Text>
     </View>
   )
