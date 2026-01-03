@@ -20,7 +20,9 @@ const AppNavigator = () => {
   return (
     <NavigationContainer> 
       <Stack.Navigator > 
-        {/* initialRouteName='Parent' */}
+        {/* 
+          initialRouteName='Parent' 
+        */}
         <Stack.Screen
             name="Splash"
             component={Splash}
