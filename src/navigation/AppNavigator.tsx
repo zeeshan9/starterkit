@@ -16,7 +16,7 @@ import ParentDrawerContainer from './ParentDrawerContainer'
 const Stack = createNativeStackNavigator();
 // Route navigation
 const AppNavigator = () => {
-  // Everthing happens inside this NavigationContainer and its called only here at top only once.
+  // Everthing happens inside this NavigationContainer & its called only here at top only once.
   return (
     <NavigationContainer> 
       <Stack.Navigator > 
